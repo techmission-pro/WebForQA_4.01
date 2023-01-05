@@ -272,7 +272,7 @@
                     <div class="text-block-9">Сфера, що динамічно розвивається в усьому світі - ніколи не опиниться у
                         застої
                     </div>
-                    <img alt="" class="image-22" loading="lazy" src="resources/images/624afb5e9e1cb30fee771a03_Frame%20(9).png">
+                    <img alt="" class="image-22" loading="lazy" src="resources/images/icon-reason-01.png">
                 </div>
                 <div class="div-block-12">
                     <div class="text-block-9">Практично весь бізнес пов'язаний з діджиталом, що створює велику кількість
@@ -284,7 +284,7 @@
                     <div class="text-block-9">Спеціалістам з України зараз відкриті всі двері, тому якщо ви втратили
                         роботу через обставини в Україні або хочете вийти на новий рівень доходу — зараз самий час
                     </div>
-                    <img alt="" class="image-24" loading="lazy" src="resources/images/624afd05e7e2777ae0b00c05_Frame%20(11).png">
+                    <img alt="" class="image-24" loading="lazy" src="resources/images/icon-reason-03.png">
                 </div>
                 <div class="div-block-12">
                     <div class="text-block-9">Робота з інноваційними проектами - де можна відчувати результат та
@@ -326,36 +326,36 @@
             <div class="div-block-15">
                 <div class="div-block-16"><img alt="" class="image-3" loading="lazy"
                                                src="resources/images/question.png">
-                    <div class="text-block-10"><strong>.. вже досягнуто</strong> максимального рівня на поточному місці
+                    <div class="text-block-10" style="text-align: justify-all;"><span>.. вже досягнуто</span> максимального рівня на поточному місці
                         роботи?
                     </div>
                 </div>
                 <div class="div-block-16"><img alt="" class="image-3" loading="lazy"
                                                src="resources/images/question.png">
-                    <div class="text-block-10"><strong>.. обмеження по рівню </strong>твоєї заробітної плати не дає
+                    <div class="text-block-10" style="text-align: justify;"><span>.. обмеження по рівню </span>твоєї заробітної плати не дає
                         будувати плани на майбутнє?
                     </div>
                 </div>
                 <div class="div-block-16"><img alt="" class="image-3" loading="lazy"
                                                src="resources/images/question.png">
-                    <div class="text-block-10"><strong>.. в тебе не цікава робота </strong>або взагалі не особливо
+                    <div class="text-block-10" style="text-align: start;"><span>.. в тебе не цікава робота </span>або взагалі не особливо
                         пишаєшся тим, чим займаєшся?
                     </div>
                 </div>
                 <div class="div-block-16"><img alt="" class="image-3" loading="lazy"
                                                src="resources/images/question.png">
-                    <div class="text-block-10"><strong>.. хочеш переїхати до іншої країни, </strong>але професія за
+                    <div class="text-block-10" style="text-align: end;"><span>.. хочеш переїхати до іншої країни, </span>але професія за
                         фахом, як і твої навики там не затребувані?
                     </div>
                 </div>
                 <div class="div-block-16"><img alt="" class="image-3" loading="lazy"
                                                src="resources/images/question.png">
-                    <div class="text-block-10"><strong>.. починаєш деградувати - </strong>нібито світ мчить повз тебе?
+                    <div class="text-block-10" style="text-align: center;"><span>.. починаєш деградувати - </span>нібито світ мчить повз тебе?
                     </div>
                 </div>
                 <div class="div-block-16"><img alt="" class="image-3" loading="lazy"
                                                src="resources/images/question.png">
-                    <div class="text-block-10"><strong>.. тебе не цінують </strong>за твої знання та старання</div>
+                    <div class="text-block-10" style="text-align: right;"><span>.. тебе не цінують </span>за твої знання та старання</div>
                 </div>
             </div>
         </div>
