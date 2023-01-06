@@ -12765,6 +12765,11 @@ p {
 .text-block-9{
     padding-left: 15px;
 }
+.emoji{
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+}
 @media screen and (min-width: 1280px) {
     .button2.bottom {
         margin-top: 20px;
