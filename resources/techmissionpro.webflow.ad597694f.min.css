@@ -12759,7 +12759,12 @@ p {
     font-weight: 600;
     text-transform: uppercase
 }
-
+.div-block-12{
+    flex-direction: row-reverse;
+}
+.text-block-9{
+    padding-left: 15px;
+}
 @media screen and (min-width: 1280px) {
     .button2.bottom {
         margin-top: 20px;
