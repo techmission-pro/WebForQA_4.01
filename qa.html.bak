@@ -48,7 +48,10 @@
 </head>
 <body>
 <div class="navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400"
-     data-easing="ease" data-easing2="ease" role="banner">
+     data-easing="ease" data-easing2="ease" role="banner"
+	 style="
+	 position: fixed;
+	 >
     <div class="container w-container">
         <div class="div-block-20 qa1"><a aria-current="page" class="link-block-7 w-inline-block w--current"
                                          href="https://www.techmission.pro/web-qa">
@@ -261,7 +264,7 @@
             <div class="div-block-9">
                 <div class="text-block-6">Приєднуйся до відкритого заняття <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/monkey_1f412.png" alt="Monkey" class="emojy alt="Party" class="emojy" style="width: 20px; height: 20px; " />
 				 постав свої питання
-				 <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/party-popper_1f389.png" alt="Party" class="emojy" style="width: 20px; height: 15px;"></div>
+				 <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/party-popper_1f389.png" alt="Party" class="emojy" style="width: 20px; height: 20px;"></div>
                 <img alt="" class="image-6 mobile qa" loading="lazy"
                      src="resources/images/arrow-rounded.png"><a
                     class="button2 scroll-to mobile smoothscroll" data-w-id="5a32690a-a66a-3354-987e-046ad719c696"
