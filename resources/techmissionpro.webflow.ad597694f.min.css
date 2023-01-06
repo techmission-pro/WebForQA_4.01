@@ -12770,6 +12770,12 @@ p {
     width: 0.8em;
     height: 0.8em;
 }
+.navigation{
+    position: fixed;
+}
+.section.main{
+    padding-top: 93px;
+}
 @media screen and (min-width: 1280px) {
     .button2.bottom {
         margin-top: 20px;
