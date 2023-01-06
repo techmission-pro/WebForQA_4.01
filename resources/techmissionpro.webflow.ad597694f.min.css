@@ -2833,7 +2833,12 @@ p {
     display: -ms-flexbox;
     display: flex
 }
-
+.div-block-6:nth-child(2n) { background-color: #737373;
+color: blue;
+}
+.div-block-6:nth-child(2n) .text-block-5 {
+color: blue;
+}
 .div-block-2 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -4533,7 +4538,6 @@ p {
 .div-block-60.true {
     background-image: url("https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/62738f03fdadb418e8d108e5_625fd9a1e2ea7c633a24e618_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%20%D0%93%D1%80%D0%B8%D0%B1%D0%B8%D0%BD%D1%8E%D0%BA.png")
 }
-
 .div-block-61 {
     display: -webkit-box;
     display: -webkit-flex;
