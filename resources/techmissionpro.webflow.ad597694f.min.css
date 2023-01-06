@@ -3049,7 +3049,7 @@ p {
 
 .text-block-5 {
     font-family: Montserrat, sans-serif;
-    color: #303030
+    /*color: #303030*/
 }
 
 .div-block-5 {
@@ -12775,6 +12775,13 @@ p {
 }
 .section.main{
     padding-top: 93px;
+}
+.div-block-6:nth-child(2n){
+    background-color: darkgray;
+    color: blue;
+}
+.div-block-6:nth-child(2n).text-block-5{
+    color: blue;
 }
 @media screen and (min-width: 1280px) {
     .button2.bottom {
