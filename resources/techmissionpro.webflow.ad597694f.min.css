@@ -3132,10 +3132,10 @@ p {
 .text-block-6 {
     margin-bottom: 15px;
     font-family: Montserrat, sans-serif;
-    font-size: 20px;
-    line-height: 38px;
+    font-size: 15px;
+    line-height: 35px;
     font-weight: 700;
-    text-transform: uppercase
+    text-transform: lowercase
 }
 
 .div-block-10 {
@@ -12971,7 +12971,7 @@ p {
         font-size: 24px;
         line-height: 38px;
         font-weight: 700;
-        text-transform: uppercase
+        text-transform: none
     }
 
     .div-block-10 {
