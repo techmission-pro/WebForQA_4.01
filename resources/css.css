@@ -1244,3 +1244,9 @@
 .text-block-9{
   padding-left: 16px;
 }
+.emoji{
+  display: inline-block;
+    width: 24px;
+    height: 16px;
+    object-fit: contain;
+}
