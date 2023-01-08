@@ -405,12 +405,17 @@
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
                 <div class="calc">
-                    <input tipe="text" name="num1" class="calc-input" />
-                    +
-                    <input tipe="text" name="num2" class="calc-input" />
+                    <input tipe="number" name="num1" class="calc-input" />
+                    <select name="op" class="calc-op">
+                        <option value="plus">+</option>
+                        <option value="minus">-</option>
+                        <option value="multiply">*</option>
+                        <option value="devide">/</option>
+                    </select>
+                    <input tipe="number" name="num2" class="calc-input" />
                     <button tipe="button" class="calc-calculate">=</button>
                     <!-- <span class="calc-result"></span> -->
-                    <input tipe="text" readonly class="calc-input calc-result" />
+                    <input tipe="number" readonly class="calc-input calc-result" />
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -436,7 +441,14 @@
 <style>
     .calc-input {
         width: 60px;
+        text-align: center;
         }
+    .calc-op{
+        width: 50px;
+        height: 25px;
+        padding-left: 15px;
+        margin: 5px;
+    }
 </style>
 </body>
 </html>
