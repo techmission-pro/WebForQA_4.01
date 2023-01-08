@@ -12795,8 +12795,9 @@ p {
     background-color: orange;
     border-radius: 3px;
 }
-.calc-result{
-    width: 150px;
+.calc-op{
+    background-color: orange;
+    border-radius: 3px;
 }
 @media screen and (min-width: 1280px) {
     .button2.bottom {
