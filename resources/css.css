@@ -1256,3 +1256,18 @@
 body{
   padding-top: 93px;
 }
+.div-block-6:nth-child(2n){
+  background-color: #888;
+}
+.div-block-6:nth-child(2n) .text-block-5{
+  color: blue;
+}
+.div-block-6:nth-child(2n+1) .text-block-5{
+  color:#ff0000;
+}
+.div-block-6:nth-child(2n+1){
+  background-image: linear-gradient(71deg, #59dbf0 28%, #83b4ff 67%, #a57dff 85%, #8058dc 98%);
+}
+.text-block-4{
+  color: black;
+}
