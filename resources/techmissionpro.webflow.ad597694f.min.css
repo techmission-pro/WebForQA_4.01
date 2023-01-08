@@ -12783,6 +12783,21 @@ p {
 .div-block-6:nth-child(2n).text-block-5{
     color: blue;
 }
+.calc-input{
+    width: 100px;
+    text-align: right;
+    background-color: mistyrose;
+    border-color: blue;
+    box-shadow: 0 0 10px #000;
+    border-radius: 3px;
+}
+.calc-button{
+    background-color: orange;
+    border-radius: 3px;
+}
+.calc-result{
+    width: 150px;
+}
 @media screen and (min-width: 1280px) {
     .button2.bottom {
         margin-top: 20px;
