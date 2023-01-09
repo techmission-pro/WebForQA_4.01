@@ -8145,6 +8145,11 @@ color: blue;
     border-left: 4px solid #303030
 }
 
+.calc-input{
+    width: 100px;
+    text-align: center;
+}
+
 .text-block-77 {
     margin-bottom: 10px;
     font-family: Montserrat, sans-serif;
@@ -22647,3 +22652,4 @@ color: blue;
         text-align: center
     }
 }
+
