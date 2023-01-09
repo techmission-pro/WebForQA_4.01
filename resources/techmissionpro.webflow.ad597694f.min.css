@@ -2,7 +2,7 @@ html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    height: 100%
+    height: 100%;
 }
 
 article,
@@ -2463,7 +2463,7 @@ p {
 }
 
 .navigation {
-    position: static;
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -2542,7 +2542,7 @@ p {
 
 .section.main {
     overflow: hidden;
-    margin-top: 0;
+    margin-top: 90px;
     background-color: #fff;
     background-image: url("https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/625322b02bda64720aedb357_624b32bd923e5fe0825f6479_Group%2068%201.png");
     background-position: 100% 0;
@@ -3206,6 +3206,14 @@ p {
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
 }
 
+.div-block-6:nth-last-child(even) {
+    background-color: darkgray;
+}
+
+.div-block-6:nth-last-child(even) .text-block-5 {
+    color: blue;
+}
+
 .div-block-7 {
     max-width: 260px
 }
@@ -3305,6 +3313,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: row-reverse;
     max-width: 340px;
     margin-bottom: 25px;
     padding: 25px;
@@ -3317,7 +3326,14 @@ p {
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
 }
 
+.emojis {
+    width: 1.2rem;
+    height: 1.2rem;
+
+}
+
 .text-block-9 {
+    padding-left: 20px;
     font-family: Montserrat, sans-serif;
     color: #303030;
     font-size: 16px;
@@ -19146,7 +19162,8 @@ p {
         width: 100%;
         padding-right: 0;
         padding-bottom: 10px;
-        border: 1px solid transparent
+        border: 1px solid transparent;
+
     }
 
     .text-block-51 {
