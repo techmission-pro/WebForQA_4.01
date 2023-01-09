@@ -29,7 +29,7 @@ document.querySelector('[name="op"]').addEventListener('change', function() {
     calculate();
 });
 
-document.querySelector('[name="num1"]').addEventListener('input', function() {
+document.querySelector('[name="num1"]').addEventListener('input.onblur', function() {
     calculate();
 });
 
