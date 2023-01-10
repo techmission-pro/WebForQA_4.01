@@ -35,7 +35,7 @@
     <link href="https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/624aaff5dc2c375a354aaf2c_metric-webclip.png"
           rel="apple-touch-icon">
 
-    <style>
+ <!--   <style>
         .div-block-12 {
             flex-direction: row-reverse;
          } 
@@ -57,7 +57,7 @@
             color: blue;
           }
 
-     </style>
+     </style> -->
 
 </head>
 <body style="padding-top: 93px;">
@@ -408,7 +408,12 @@
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+                <div class="calc">      
+                    <input type="text" name="num1" class="calc-input" />
+                     +
+                    <input type="text" name="num2" class="calc-input" />
+                    <button type="button" class="calc-calculate calc-button">=</button>
+                    <input type="text" readonly class="calc-input calc-result" />
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -430,5 +435,25 @@
 <!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
+<script src="./resources/calc.js"></script>
+
+<style >
+    .div-block-27 {
+        background-color: blue;
+        
+    }
+    .calc-input {
+        width: 30%;
+        text-align: center;
+        font-family: fantasy;
+        text-shadow: 2px 2px 4px black;
+        color: aqua;
+        background-color: greenyellow;
+        border-radius: 20px;
+    }
+    .calc-calculate {
+        background-color: blue;
+    }
+</style>
 </body>
 </html>
