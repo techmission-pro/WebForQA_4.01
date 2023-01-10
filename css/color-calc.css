@@ -1,0 +1,21 @@
+.calc-input {
+	width: 80px;
+	text-align:center;
+	 background-color: #c0c0c0;
+		border: 3px solid #c79316;
+			border-radius: 25px;
+}
+.calc-op{
+	width: 60px;
+	text-align:center;
+	 background-color: #FFE8DB;
+		border: 3px solid #FF5A00;
+		border-radius: 15px 100px 15px 100px;
+}
+	.calc-calculate{
+	width: 40px;
+	text-align:center;
+	background-color: #EEDDFF;
+		border: 3px solid #7922CC;
+			border-radius: 280px/100px
+	}
