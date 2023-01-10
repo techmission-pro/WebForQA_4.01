@@ -22642,4 +22642,12 @@ p {
     .div-block-350, .div-block-351, .div-block-352, .div-block-353 {
         text-align: center
     }
+	
+	.div-block-6:nth-child(2n) {
+  background-color: #888;
+  color: blue;
+  }
+  .div-block-6:nth-child(2n) .text-block-5 {
+  color: blue;
+  }
 }

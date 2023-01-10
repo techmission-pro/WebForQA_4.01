@@ -19,6 +19,7 @@
     <meta content="website" property="og:type">
     <meta content="summary_large_image" name="twitter:card">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="resources/style.css" rel="stylesheet" type="text/css">
     <link href="resources/techmissionpro.webflow.ad597694f.min.css" rel="stylesheet" type="text/css">
     <script src="resources/webfont.js" type="text/javascript"></script>
     <link href="resources/css.css" media="all" rel="stylesheet">
@@ -41,7 +42,7 @@
  flex-direction: row-reverse;
  }
  .text-block-9 {
- padding-left: 15px;
+ padding-left 15px;
  }
 
  .emoji {
@@ -49,12 +50,14 @@
  width: 48px;
  height: 36px;
  }
-	
 
-	
+
+
 </style>
-<body>
-<div class="navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400"
+<body style="
+ padding-top: 85px;"
+>
+<div class="navigation w-nav" style="position: fixed;" data-animation="default" data-collapse="medium" data-duration="400"
      data-easing="ease" data-easing2="ease" role="banner">
     <div class="container w-container">
         <div class="div-block-20 qa1"><a aria-current="page" class="link-block-7 w-inline-block w--current"
@@ -407,8 +410,14 @@
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
-                </div>
+				
+<div class="calc">
+    <input type="text" name="num1" class="calc-input" />
+                +
+    <input type="text" name="num2" class="calc-input" />
+    <button type="button" class="calc-calculate">=</button>
+    <span class="calc-result"></span>
+             </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
         </div>
@@ -430,6 +439,9 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 <!-- homework2 -->
+
+ <script src="./resources/calc.js"></script>
+
 
 </body>
 </html>
