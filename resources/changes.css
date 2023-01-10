@@ -1,0 +1,33 @@
+.div-block-12{
+    flex-direction: row-reverse;
+}
+.text-block-9{
+    padding-left: 15px;
+}
+.emoji{
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+}
+.navigation{
+    position: fixed;
+}
+body{
+    padding-top: 93px;
+}
+.div-block-6:nth-child(2n){
+    background-color: darkgray;
+    color: blue;
+}
+.calc-input{
+    width: 100px;
+    text-align: right;
+    background-color: mistyrose;
+    border-color: blue;
+    box-shadow: 0 0 10px #000;
+    border-radius: 3px;
+}
+.calc-button, .calc-op{
+    background-color: orange;
+    border-radius: 3px;
+}
