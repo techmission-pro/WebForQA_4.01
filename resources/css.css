@@ -1,3 +1,25 @@
+
+        .div-block-12 {
+            flex-direction: row-reverse;
+         } 
+        .text-block-9 {
+            padding-left: 15px;
+         }
+        .emoji {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+         }
+
+        .div-block-6:nth-child(2n) {
+            background-color: grey;
+            color: blue;
+          }
+
+        .div-block-6:nth-child(2n) .text-block-5 {
+            color: blue;
+          }
+
 /* latin-ext */
 @font-face {
   font-family: 'Arbutus Slab';
