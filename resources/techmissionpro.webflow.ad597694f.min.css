@@ -3088,10 +3088,12 @@ p {
 .div-block-6:nth-child(2n) {
     background-color: #888;
 }
-.div-block-6:nth-child(2n) .text-block-5{
+    
+.div-block-6:nth-of-type(even) .text-block-5{
     color: blue;
 }
-    
+
+image.png
 
 .div-block-7 {
     max-width: 260px
