@@ -1,3 +1,20 @@
+ /* .div-block-27 {
+        background-color: blue;
+        text-align: center;
+        
+    }
+    .calc-input {
+        width: 25%;
+        text-align: center;
+        font-family: fantasy;
+        text-shadow: 2px 2px 4px black;
+        color: aqua;
+        background-color: greenyellow;
+        border-radius: 20px;
+    }
+    .calc-calculate {
+        background-color: blue;
+    }
 
         .div-block-12 {
             flex-direction: row-reverse;
@@ -19,6 +36,10 @@
         .div-block-6:nth-child(2n) .text-block-5 {
             color: blue;
           }
+        .calc-op {
+          background-color: blue;
+          border-color: blue;
+        } */
 
 /* latin-ext */
 @font-face {
