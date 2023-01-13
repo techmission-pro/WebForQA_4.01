@@ -3184,13 +3184,15 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+	flex-direction: row-reverse;
     max-width: 340px;
     margin-bottom: 25px;
     padding: 25px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-around;
     border-radius: 8px;
     background-color: #f7f7f7;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
@@ -3199,6 +3201,8 @@ p {
 .text-block-9 {
     font-family: Montserrat, sans-serif;
     color: #303030;
+	padding-left: 18px;
+	padding-right: 0px;
     font-size: 16px;
     line-height: 28px
 }
