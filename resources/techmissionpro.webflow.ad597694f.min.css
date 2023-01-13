@@ -3086,6 +3086,15 @@ p {
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
 }
 
+.div-block-6:nth-child(2n){
+    background-color: #888;
+	color: blue;
+}
+
+.div-block-6:nth-child(2n) .text-block-5{
+	color:blue;
+}
+
 .div-block-7 {
     max-width: 260px
 }
@@ -20359,7 +20368,6 @@ p {
         width: 100%;
         max-width: 340px
     }
-
     .div-block-7 {
         max-width: 100%
     }
