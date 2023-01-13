@@ -1,11 +1,25 @@
-const num1Input = document.querySelector('.num1');
-const num2Input = document.querySelector('.num2');
-const sumButton = document.querySelector('.calc_result');
+function calculate() {
+  const firstNumber = document.getElementById('firstNumber').value;
+  const secondNumber = document.getElementById('secondNumber').value;
+  const oper = document.getElementById('opt').value;
 
+ let result;
 
-sumButton.addEventListener('click', function() {
-  const num1 = parseInt(num1Input.value);
-  const num2 = parseInt(num2Input.value);
-  const sum = num1 + num2;
-  document.querySelector('.calc_calc').value = sum;
-});
+  if (oper === 'plus') {
+    result = parseFloat(firstNumber) + parseFloat(secondNumber);
+  }
+  else if (oper === 'minus') {
+    result = parseFloat(firstNumber) - parseFloat(secondNumber);
+  }
+  else if (oper === 'multiply') {
+    result = parseFloat(firstNumber) * parseFloat(secondNumber);
+  }
+  else if (oper === 'divide') {
+    result = parseFloat(firstNumber) / parseFloat(secondNumber);
+  }
+  else {
+    console.error('Wrong op');
+    alert('Wrong operator is selected');
+  }
+  document.querySelector('[name="result"]').value = result;
+};

@@ -383,13 +383,16 @@
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
                 <div class="w-embed">
-                    <input type="text" class="num1" placeholder="Number">
-            +
-                    <input type="text" class="num2" placeholder="Number">
-                    =
-                    <input type="text" readonly class="calc_calc" placeholder="Result"/>
-                    
-                    <button class="calc_result" >=</button>
+                    <input type="text" id="firstNumber" placeholder="First Number">
+        <select name = "opt" id="opt">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+    <input type="text" id="secondNumber" placeholder="Second Number">
+    <button onclick="calculate()">Calculate</button>
+    <input type="text" readonly name = "result" id="result" placeholder="Result" value="result">
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
