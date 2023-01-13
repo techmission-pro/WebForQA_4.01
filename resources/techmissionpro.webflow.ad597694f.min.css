@@ -3132,10 +3132,17 @@ p {
 .text-block-6 {
     margin-bottom: 15px;
     font-family: Montserrat, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 38px;
     font-weight: 700;
     text-transform: uppercase
+}
+
+	.emoji {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	object-fit: contain
 }
 
 .div-block-10 {
