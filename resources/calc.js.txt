@@ -1,0 +1,8 @@
+ <div document.querySelector ('.calc-calculete').addEventListener ('click' .function () (
+     const num1 = document.querySelector('[name="nam1"]').value;
+	 const num2 = document.querySelector('[name="nam2"]').value;
+	 
+	 const = num1 + num2;
+	 
+	 document.querySelector('.calc-result').innerText = sam;
+));/>
