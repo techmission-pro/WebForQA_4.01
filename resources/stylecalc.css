@@ -1,19 +1,19 @@
-.num1, .num2, .calc_calc{
-    width: 70px;
+#firstNumber, #secondNumber, #result{
+    width: 130px;
     height: 40px;
     background-color: rgb(206, 212, 212);
     text-align: center;
     border-radius: 10px;
 }
-.num1:hover, .num2:hover, .calc_calc:hover{
-    width: 70px;
+#firstNumber:hover, #secondNumber:hover, #result:hover{
+    width: 130px;
     height: 40px;
     background-color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 10px;
 }
-.calc_result{
-    width: 70px;
+#calc_result{
+    width: 30px;
     height: 18px
     top: -39px;
     left: 250px
@@ -23,10 +23,20 @@
     align-items: center;
     background-color: rgb(206, 212, 212);
     border-radius: 10px;
+}    
+.div-block-27 {animation: blink 1s infinite;
+    }
+      
+      @keyframes blink {
+        0% { background-color: #89f789; }
+        25% { background-color: #7cebf3; }
+        50% { background-color: #c1b8f3; }
+        75%{background-color: #e2d4fa;}
+        100% { background-color: #a5f3a5; }
+      
     
-   
 }
-.calc_result:hover{
+#calc_result:hover{
     top: -39px;
     left: 250px
     
@@ -38,4 +48,19 @@
     border-radius: 10px;
     background-color: rgb(204, 200, 200);
     
-   }
+}
+#clear{
+    padding: 0px 100px;
+    margin-top: 10px;
+    margin-left: 27px;
+    border-radius: 10px;
+    background-color: darkgrey;
+}
+#clear:hover{
+    padding: 0px 100px;
+    margin-top: 10px;
+    margin-left: 27px;
+    border-radius: 10px;
+    background-color: rgb(245, 41, 41);
+    color: white;
+}
