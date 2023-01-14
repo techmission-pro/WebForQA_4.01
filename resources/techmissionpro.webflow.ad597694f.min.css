@@ -3206,6 +3206,7 @@ p {
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
 }
 
+
 .div-block-6:nth-last-child(even) {
     background-color: darkgray;
 }
@@ -3213,6 +3214,18 @@ p {
 .div-block-6:nth-last-child(even) .text-block-5 {
     color: blue;
 }
+
+/*.text-block-5 {
+    background-color: pink;
+    color: pink;
+}
+
+.text-block-5:nth-of-type(odd) {
+    background-color: red;
+    color: red;
+}*/
+
+
 
 .div-block-7 {
     max-width: 260px
@@ -3663,8 +3676,9 @@ p {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-width: 560px;
-    padding: 20px;
+    max-width: 227px;
+    margin-left: 10px;
+    margin-right: 10px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3675,7 +3689,7 @@ p {
 }
 
 .div-block-27.true {
-    max-width: 458px
+    max-width: 458px;
 }
 
 .div-block-27.true.persons {
@@ -3687,6 +3701,36 @@ p {
     max-width: 420px;
     border-radius: 20px
 }
+
+.calc-input {
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.options__calc-options,
+.calc-calculate {
+    width: 2em;
+    height: 2em;
+
+    font-size: 1.5em;
+    border-radius: 50%;
+
+    -webkit-appearance: none;
+    border: 1px solid gray;
+    background-color: #fff;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #000;
+    color: whitesmoke;
+}
+
 
 .text-block-13 {
     font-family: Montserrat, sans-serif;
