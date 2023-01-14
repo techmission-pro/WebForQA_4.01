@@ -3093,6 +3093,13 @@ p {
     color: blue;
 }
 
+.color-wrong {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}
+
 image.png
 
 .div-block-7 {

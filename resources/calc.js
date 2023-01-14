@@ -7,26 +7,32 @@ function calculate (){
 
     if (op ==='plus') {                
         result = parseInt (num1) + parseInt (num2);
+        label.textContent = '';
     }
     else if (op === 'minus'){
         result = parseInt (num1) - parseInt (num2);
+        label.textContent = '';
     }
     else if (op === 'multiply') {
         result = parseInt (num1) * parseInt (num2);
+        label.textContent = '';
     }
+    else if (op === 'divide' && num2 === "0") {
+        label.textContent = 'You lose: dividing by zero is forbidden!';    
+    } 
     else if (op === 'divide') {
         result = parseInt (num1) / parseInt (num2);
+        label.textContent = '';
     }
     else {
         console.error('Wrong op!');
         alert('Wrong operation is selected');
 
-    } 
-
-    //const sum = num1 + num2;
+    }     
 
     document.querySelector('.calc-result').value = result;
 }
+let label = document.querySelector('p');
 
 document.querySelector('.calc-calculate').addEventListener('click', function(){
     calculate();
