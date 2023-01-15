@@ -3069,6 +3069,14 @@ p {
     -ms-flex-align: stretch;
     align-items: stretch
 }
+.div-block-6:nth-child(2n) {
+	background-color: #888;
+	color: blue;
+}
+
+.div-block-6:nth-child(2n) .text-block-5 {
+	color: blue;
+}
 
 .div-block-6 {
     display: block;
