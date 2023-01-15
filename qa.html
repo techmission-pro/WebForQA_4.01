@@ -34,7 +34,7 @@
           rel="shortcut icon" type="image/x-icon">
     <link href="https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/624aaff5dc2c375a354aaf2c_metric-webclip.png"
           rel="apple-touch-icon">
-     <link href="css/styles.css" rel="stylesheet">
+     <link href=".F:\practicke\resources\css.css" rel="stylesheet">
     <style>
       
 	.div-block-12 {
@@ -48,7 +48,6 @@
 			  width: 1em;
 			  height: 1em;
 		 } 
-	
 	</style>	  
 </head>
 <body style="padding-top: 93px;">
@@ -404,8 +403,9 @@
 				   <input type="text" name="num1" class="calc-input" />
 				   +
 				   <input type="text" name="num2"  class="calc-input" />
-				   <button type="button" class="calc-calculete">=</button>
-				   <span class="calc-result"></span>
+				   <button type="button" class="calc-calculate">=</button>
+				   <!-- <span class="calc-result"></span> -->
+				   <input type="text" readonly class="calc-input calc-result" />
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -427,7 +427,12 @@
 <!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
-	<script src="./resources/calc.js"></script>
-
+<script src=".F:\practicke\resources\calc.js.txt"></script>
+<style>
+.calc-input {
+  width: 60px;
+  text-align: center;
+  }
+</style>
 </body>
 </html>
