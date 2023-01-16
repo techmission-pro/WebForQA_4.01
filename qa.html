@@ -23,6 +23,7 @@
     <script src="resources/webfont.js" type="text/javascript"></script>
     <link href="resources/css.css" media="all" rel="stylesheet">
     <link href="resources/background.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="resources/calc.css">
     <script type="text/javascript">WebFont.load({google: {families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Roboto:300,regular,500", "Roboto Condensed:300,regular,700", "Roboto Slab:300,regular,700", "Arbutus Slab:regular"]}});</script>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
@@ -403,7 +404,13 @@
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+                <div class="calc">
+                    <input type="text" name="num1" class="calc-input"/>
+                    <span class="calc-plus">+</span>
+                    <input type="text" name="num2" class="calc-input"/>
+                    <button type="button" class="calc-calculate">=</button>
+                    <!--<span class="calc-result"></span> --->
+                    <input type="text" name="sum" readonly class="calc-result calc-input"/>
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -424,5 +431,8 @@
 <script src="resources/webflow.3ae7eb135.js" type="text/javascript"></script>
 <!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+
+<script src="./resources/calc.js"></script>
+
 </body>
 </html>
