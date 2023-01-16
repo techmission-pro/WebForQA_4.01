@@ -3085,7 +3085,14 @@ p {
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
 }
-
+.div-block-6:nth-child(even) {
+     background-color: #888;
+	 color: blue;
+}
+.div-block-6:nth-child(even) .text-block-5  {
+     background-color: #888;
+	 color: blue;
+}
 .div-block-7 {
     max-width: 260px
 }
