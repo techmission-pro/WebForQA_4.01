@@ -405,12 +405,17 @@
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
                 <div class="calc">
-                    <input type="text" name="num1" class="calc-input"/>
-                    <span class="calc-plus">+</span>
-                    <input type="text" name="num2" class="calc-input"/>
+                    <input type="number" name="num1" class="calc-input"/>
+                    <select name="op" class="calc-op">
+                        <option value="plus">+</option>
+                        <option value="minus">-</option>
+                        <option value="multiply">*</option>
+                        <option value="divide">/</option>
+                    </select>
+                    <input type="number" name="num2" class="calc-input"/>
                     <button type="button" class="calc-calculate">=</button>
                     <!--<span class="calc-result"></span> --->
-                    <input type="text" name="sum" readonly class="calc-result calc-input"/>
+                    <input type="number" name="sum" readonly class="calc-result calc-input"/>
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
