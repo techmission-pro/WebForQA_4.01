@@ -3711,6 +3711,7 @@ p {
     border-radius: 20px;
 }
 
+
 .options__calc-options,
 .calc-calculate {
     width: 2em;
@@ -3725,6 +3726,11 @@ p {
     text-align: center;
 
     cursor: pointer;
+}
+
+.options__calc-options * {
+    border-radius: 15px;
+    background-color: red;
 }
 
 .operator {
