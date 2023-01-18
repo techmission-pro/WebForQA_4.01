@@ -18,4 +18,13 @@
           color:blue;
           }
           
+          .calc-input {
+          text-align: center;
+          width: 160px;
+          }
+          .calc-result {
+           color: green;
+          }
+          
+          
           </style>
