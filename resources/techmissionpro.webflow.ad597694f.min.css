@@ -3070,7 +3070,8 @@ p {
     align-items: stretch
 }
 
-.div-block-6 {
+.div-block-6:nth-child(2n) .text-block-5  { 
+    color: blue;
     display: block;
     max-width: 229px;
     margin-bottom: 10px;
@@ -3081,8 +3082,14 @@ p {
     justify-content: space-between;
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #888;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
+	
+	
+	
+	
+    
+				
 }
 
 .div-block-7 {
