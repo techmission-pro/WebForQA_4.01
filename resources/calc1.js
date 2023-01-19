@@ -1,7 +1,7 @@
 function calculate() {
    const  num1 = +document.querySelector('[name="num1"]').value; 
    const  num2 = +document.querySelector('[name="num2"]').value;
-   const op =  document.querySelector('[name="op"]').value;
+   const op = document.querySelector('[name="op"]').value;
  
    let result;
  
@@ -13,8 +13,8 @@ function calculate() {
        result = num1 * num2;
    } else if (op === 'divide') {
 	   result = num1 / num2;
-   } else (
-        console.error('Wrong op');
+   } else {
+        console.error('Wrong op!');
 		alert('Wrong operation is selected');
    }
    
@@ -36,10 +36,3 @@ document.querySelector('[name="op"]').addEventListener('change', function() {
 document.querySelector('[name="num2"]').addEventListener('input', function() {
 	calculate();
 });
-
-   
-
-
-
-
-
