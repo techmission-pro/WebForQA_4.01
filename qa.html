@@ -405,13 +405,19 @@
                                src="resources/images/arrow-curved.png" width="106"></div>
     </div>
 </div>
-<div class="section-2 wf-section">
-    <div class="container-8 w-container">
+<div class="section-2 wf-section"> 
+   <div class="container-8 w-container">
         <div class="div-block-25 padding"><h3 class="heading">Приєднуйся до нас та отримай можливість <span
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+                <div class="calc">
+				<input type="text" name="num1"  class="calc-input" style="text-align:center; color:green" />
+				+
+				<input type="text" name="num2"  class="calc-input" style="text-align:center; color:blue" />
+				<button type="button" class="calc-calculate"; style="color:red">=</button>
+				<!-- <span class="calc-result"></span> -->
+				<input type="text" readonly class="calc-input calc-result" style="text-align:center; color:purple"/>
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -432,6 +438,14 @@
 <script src="resources/webflow.3ae7eb135.js" type="text/javascript"></script>
 <!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+
+<!--test comment -->
+
+<script src="./resources/calc.js"></script>
+<style>
+.calc-input {
+    width: 120px;
+	}
 
 </body>
 </html>
