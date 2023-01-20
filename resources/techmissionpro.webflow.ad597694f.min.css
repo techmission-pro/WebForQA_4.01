@@ -3573,13 +3573,37 @@ p {
 }
 
 .calc-input {
-	width: 130px;
+	width: 100px;
 	height: 40px;
+	outline-style: double, blue;
+	border-radius: 10px;
+	margin-bottom: 15px;
+    margin-left: 15px;
+	text-align: center;
+	color: blue
+}
+
+.calc-op {
+	width: 50px;
+	height: 30px;
+	outline-style: double, blue;
+	border-radius: 10px;
+	margin-bottom: 15px;
+    margin-left: 15px;
+	text-align: center;
+	color: blue
+}
+
+.calc-calculate {
+	width: 50px;
+	height: 30px;
 	outline-style: double;
 	border-radius: 10px;
+	margin-bottom: 15px;
+    margin-left: 15px;
 	text-align: center;
 	color: red
-}
+}	
 
 .text-block-13 {
     font-family: Montserrat, sans-serif;
