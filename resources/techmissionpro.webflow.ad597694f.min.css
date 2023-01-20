@@ -3555,7 +3555,7 @@ p {
     justify-content: center;
     border-radius: 20px;
     background-color: #fff;
-    box-shadow: 1px 1px 20px 0 #dce9ff
+    box-shadow: 1px 1px 10px 0 #dce9ff
 }
 
 .div-block-27.true {
@@ -3570,6 +3570,15 @@ p {
 .div-block-27.true.persons.qa {
     max-width: 420px;
     border-radius: 20px
+}
+
+.calc-input {
+	width: 130px;
+	height: 40px;
+	outline-style: double;
+	border-radius: 10px;
+	text-align: center;
+	color: red
 }
 
 .text-block-13 {
