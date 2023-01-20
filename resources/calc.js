@@ -1,7 +1,7 @@
- document.querySelector('.calc-calculate').addEventListener('click', function () {
+ function calculate() {
      const num1 = parseFloat(document.querySelector('[name=num1]').value);
 	 const num2 = parseFloat(document.querySelector('[name=num2]').value);
-	 const op = document.querySelector('[name=op]').value;
+	 const op = document.querySelector('[name="op"]').value;
 	 
 	 let result;
 	 
@@ -19,4 +19,20 @@
 	 }	
 		 
 	 document.querySelector('.calc-result').value = result;
- });
+ }
+ 
+  document.querySelector('.calc-calculate').addEventListener('click', function () {
+	  calculate();
+  });
+  
+   document.querySelector('[name="op"]').addEventListener('change', function () {
+	  calculate();
+  });
+  
+  document.querySelector('[name="num1"]').addEventListener('input', function () {
+	  calculate();
+  });
+  
+  document.querySelector('[name="num2"]').addEventListener('input', function () {
+	  calculate();
+  });
