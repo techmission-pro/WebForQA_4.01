@@ -417,7 +417,18 @@ style="
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+                <div class="calc">
+<input type="number" name="num1" class="calc-input" />
+<select name="op" class="calc-op">
+<option value="plus">+</option>
+<option value="minus">-</option>
+<option value="multiply">*</option>
+<option value="divide">/</option>
+</select>
+<input type="number" name="num2" class="calc-input" />
+<button type="button" class="calc-calculate">=</button>
+<!--<span class="calc-result"></span>-->
+<input type="number" readonly class="calc-input calc-result" />
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -441,5 +452,12 @@ style="
 
 <!-- test comment -->
 
+<script src="./resources/calc.js"></script>
+<style>
+.calc-input {
+width: 60px;
+text-align: center;
+}
+<style/>
 </body>
 </html>
