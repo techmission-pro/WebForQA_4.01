@@ -9,7 +9,7 @@
 	border: 3px solid;
     border-radius: 20px;
     padding: 5px; 
-	border-color: green;
+	border-color: darkorange;
 	border-width: 3px; 
 	background-color:hsl(210,100%,80%);
 	text-align: center;
@@ -19,7 +19,7 @@
 }
 .calc-op {
 	background-color:hsl(210,100%,80%);
-    border: 3px solid green;
+    border: 3px solid MediumOrchid ;
     border-radius: 25px;
     padding: 3px;
 	height: 50px;
@@ -27,7 +27,7 @@
 }
 .calc-calculate {
 	background-color:hsl(210,100%,80%);
-	border: 3px solid green;
+	border: 3px solid MediumOrchid ;
     border-radius: 25px;
     padding: 3px;
 	height: 50px;
