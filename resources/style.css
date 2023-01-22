@@ -13,6 +13,8 @@
 	border-width: 3px; 
 	background-color:hsl(210,100%,80%);
 	text-align: center;
+	font-weight: bold;
+	font-size: 120%;
 }
 .div-block-27 {
 	background-image: linear-gradient(71deg, #59dbf0 28%, #83b4ff 67%, #a57dff 85%, #8058dc 98%);
@@ -24,6 +26,8 @@
     padding: 3px;
 	height: 50px;
 	width: 50px;
+	font-weight: bold;
+	font-size: 120%;
 }
 .calc-calculate {
 	background-color:hsl(210,100%,80%);
@@ -32,6 +36,8 @@
     padding: 3px;
 	height: 50px;
 	width: 50px;
+	font-weight: bold;
+	font-size: 120%;
 }
 .calc-input.calc-result {
 	width: 100px;
