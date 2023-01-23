@@ -49,6 +49,24 @@
         }
     </style>
     <link href="resources/color.css" rel="stylesheet">
+    <script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+<script>
+    function IsEmpty() {
+
+            if (document.querySelector.value == "") {
+                alert("empty");
+            }
+            return;
+        }
+</script>
 </head>
 <body style="padding-top: 93px;">
 <div class="navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400"
@@ -403,17 +421,18 @@
                     }
                 </style>
                 <div class="calc">
-                    <input type="text" name="num1" class="calc-input" />
+                    <input type="number" name="num1" class="calc-input" />
                     <select name="op" class="calc-op">
                         <option value="plus">+</option>
+                        <option value="minus">-</option>
                         <option value="mult">*</option>
                         <option value="divis">/</option>
-                        <option value="minus">-</option>
                     </select>
-                    <input type="text" name="num2" class="calc-input" />
+                    <input type="number" name="num2" class="calc-input" />
                     <button type="button" class="calc-calculate">=</button>
                     <!--<span class="calc-result"></span>-->
-                    <input type="text" readonly class="calc-input calc-result" />
+                    <input type="num" readonly class="calc-input calc-result" />
+                    
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
