@@ -404,12 +404,17 @@
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
                 <div class="calc">
-                    <input type="text" name="num1" class="calc-input"/>
-                    +
-                    <input type="text" name="num2" class="calc-input"/>
-                    <button type="button"class="calc-calculate">=</button>
+                    <input type="number" name="num1" class="calc-input" style="width: 120px; border-radius: 1em 1em 1em / 1em 1em;"/>
+                    <select name="op" class="calc-op" style = "color: rgb(46, 28, 117); border-radius: 1em 1em 1em / 1em 1em; background-color: rgb(140, 221, 221);">
+                        <option value="plus">+</option>
+                        <option value="minus">-</option>
+                        <option value="multiply">*</option>
+                        <option value="divide">/</option>
+                    </select>
+                    <input type="number" name="num2" class="calc-input" style="width: 120px; border-radius: 1em 1em 1em / 1em 1em;"/>
+                    <button type="button"class="calc-calculate" style="border-radius: 2em 2em 2em / 1em 1em; background-color: rgb(140, 221, 221);">=</button>
                    <!-- <span class="calc-result"></span>--> 
-                   <input type="text" readonly class="calc-input calc-result" />
+                   <input type="text" readonly class="calc-input calc-result" style="width: 85px; border-radius: 1em 1em 1em / 1em 1em;"/>
                 </div>
                 </div>
             </div>
@@ -439,7 +444,7 @@
     .calc-input {
         width: 60px;
         text-align: center;
-        color: rgb(168, 43, 226);
+        
 
     }
 </style>
