@@ -21,3 +21,10 @@ color: blue;
 {
 color: blue;
 }
+
+.calc-input 
+{
+width: 70px;
+text-align: center;
+background: lightgray;
+}
