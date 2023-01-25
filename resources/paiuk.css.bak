@@ -10,6 +10,4 @@ body {padding-top: 93px}
 ."navigation w-nav" 		{position: fixed;	      }
 .div-block-6:nth-child(2n) 	{background-color: #888;      }
 .div-block-6:nth-child(2n) .text-block-5 	{color: blue; }
-.calc-input				{ width: 100px;
-						 text-align: center;
-						 width: bold;		}	
+.calc-input				{ width: 100px; }	
