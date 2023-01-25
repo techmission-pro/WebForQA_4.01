@@ -2044,6 +2044,7 @@ textarea.w-input, textarea.w-select {
 
 body {
     margin: 0;
+    padding-top: 93px;
     min-height: 100%;
     background-color: #fff;
     font-family: Roboto, sans-serif;
@@ -2342,7 +2343,7 @@ p {
 }
 
 .navigation {
-    position: static;
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -3046,10 +3047,14 @@ p {
     font-weight: 400;
     letter-spacing: 4px
 }
+.div-block-6:nth-child(2n) {
+    background-color: grey;
+    color: blue;
+}
 
 .text-block-5 {
     font-family: Montserrat, sans-serif;
-    color: #303030
+
 }
 
 .div-block-5 {
@@ -3137,6 +3142,10 @@ p {
     font-weight: 700;
     text-transform: uppercase
 }
+.emoji{
+    height: 1em;
+    width: 1em;
+}
 
 .div-block-10 {
     display: -webkit-box;
@@ -3193,14 +3202,17 @@ p {
     align-items: flex-start;
     border-radius: 8px;
     background-color: #f7f7f7;
-    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
+    flex-direction: row-reverse;
+
 }
 
 .text-block-9 {
     font-family: Montserrat, sans-serif;
     color: #303030;
     font-size: 16px;
-    line-height: 28px
+    line-height: 28px;
+    padding-left: 15px;
 }
 
 .div-block-13 {
@@ -3526,17 +3538,35 @@ p {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-width: 560px;
-    padding: 20px;
+    max-width: 460px;
+    padding: 10px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 #dce9ff
 }
+.calc-opt{
+    width: 50px;
+    background-color: #f3e280f5;
+}
+.calc-result{
+border-width: 5px;
+border-color: #00ff0b;
+    }
 
+.calc-opt:hover{
+    background-color: #e4c411b0;
+    border: none;
+}
+.calc-input{
+    background-color: #70ccaa;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
 .div-block-27.true {
     max-width: 458px
 }
@@ -3560,6 +3590,7 @@ p {
 }
 
 .div-block-28 {
+
     position: relative;
     z-index: 1;
     max-width: 100%;
@@ -5136,6 +5167,7 @@ p {
 
 .body {
     background-color: #0d1237;
+
     background-image: url("https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/6273cd193c4d0c7ecf9f3820_begraund.svg");
     background-position: 0 0;
     background-size: auto
@@ -12924,6 +12956,7 @@ p {
         margin-bottom: 25px
     }
 
+
     .div-block-8 {
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
@@ -20367,11 +20400,14 @@ p {
     }
 
     .div-block-12 {
-        width: 100%
+              width: 100%;
+
+        
     }
 
     .text-block-9 {
-        text-align: left
+        text-align: left;
+
     }
 
     .div-block-14 {
