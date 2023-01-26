@@ -300,7 +300,7 @@
             <div class="div-block-13">
                 <div class="div-block-11">
                     <div class="div-block-24">
-                        <div class="text-block-7"><span class="text-span-2">7 причин</span> працювати в ІТ</div>
+                        <div class="text-block-7"><span class="text-span-2">7 причин </span> працювати в ІТ</div>
                         <div class="text-block-8">престижно та перспективно</div>
                     </div>
                 </div>
@@ -419,7 +419,12 @@
             <div class="div-block-27" id="scroll-block">
                 <div class="calc">
 				<input type="text" name="num1" class="calc-input" />
-				+
+				<select  name="op" class="calc-op">
+				<option value="plus">+</option>
+				<option value="minus">-</option>
+				<option value="multiple">*</option>
+				<option value="divide">/</option>
+				</select>
 				<input type="text" name="num2" class="calc-input" />
 				<button type="button" class="calc-calculate">=</button>
 				<span class="calc-result"></span>
@@ -447,6 +452,11 @@
 <!-- test coment --> 
 
 <script src="./resources/calc.js"></script>
+<style>
+.calc-input {
+     width: 60px;
+	 }
+	 </style>
 
 
 </body>
